@@ -1,0 +1,184 @@
+#mybg {
+  background: url("/hospital/images/icons/bg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#servicesRow img {
+  width: 3.5rem;
+}
+
+.jumbotron {
+  -webkit-animation: slideup 2s;
+  animation: slideup 2s;
+}
+
+.jumbotronblock:not(:hover) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.jumbotronblock:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+@-webkit-keyframes slideup {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideup {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#servicesRow div {
+  -webkit-animation: slideup 2s;
+  animation: slideup 2s;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.mycontainer .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.mycontainer h2 {
+  font-weight: 400;
+}
+
+.mycontainer .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+footer {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.5rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footerimg {
+  cursor: not-allowed;
+}
+
+/* Gallery */
+
+.galleryimg {
+  /* opacity: 0.5; */
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.galleryimg:hover {
+  /* opacity: 0.5; */
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+/* Docs */
+
+.mydocs:hover > img {
+  -webkit-box-shadow: 0 2px 84px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 84px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 0.5%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.mydocs:not(:hover) > img {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Medai Queries
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .jumbotron h1 {
+    font-size: 3.5rem;
+  }
+  #servicesRow div {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #servicesRow div {
+    margin-bottom: 2rem;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

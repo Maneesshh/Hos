@@ -1,0 +1,7 @@
+include
+
+1. bootstrap.min.css    inside <head>
+
+2.  <script src="jquery.slim.min.js"></script>
+    <script src="poper.min.js"></script>
+    <script src="bootstrap.min.js"></script>	inside the body tag at last
